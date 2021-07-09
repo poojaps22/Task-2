@@ -19,11 +19,6 @@ public class ElectronicDevice implements Comparable<ElectronicDevice> {
 		this.price = price;
 	}
 
-
-	/*
-	 * public ElectronicDevice(int units, int time) { super(); this.units = units;
-	 * this.time = time; }
-	 */
 	public int getPower() {
 		return power;
 	}
@@ -36,11 +31,7 @@ public class ElectronicDevice implements Comparable<ElectronicDevice> {
 	public void setUnits(int units) {
 		this.units = units;
 	}
-	/*public void calculatePower()
-	{
-		power+=(power*units);
-		System.out.println("Electronic Device : "+);
-	}*/
+	
 	public int getTime() {
 		return time;
 	}
@@ -59,14 +50,14 @@ public class ElectronicDevice implements Comparable<ElectronicDevice> {
 
 	@Override
 	public int compareTo(ElectronicDevice o) {
-		// TODO Auto-generated method stub
+	
 		return this.getPower() - o.getPower();
 	}
 
 
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
+
 		return "=> "+power+" - "+price+"\n";
 	}
 	
