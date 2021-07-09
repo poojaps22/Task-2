@@ -7,10 +7,6 @@ import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
 
-import javaday2.Accountant;
-import javaday2.Employee;
-import javaday3.sorted.SortEmployeeBasedOnSalary;
-
 public class MainClass {
 
 	public static void main(String[] args) {
